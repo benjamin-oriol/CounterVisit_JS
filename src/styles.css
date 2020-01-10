@@ -1,0 +1,21 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #282a36;
+  color: #fff;
+}
+
+h1 {
+  transform: rotate(-8deg);
+}
+
+#counter {
+  font-size: 8em;
+  margin: 0;
+  filter: blur(31px);
+  transition: 200ms;
+}
